@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "git clone https://github.com/Lexxy24/yondaktau && cd yondaktau && rm -rf session.json && npm install && npm start"
+run = "git clone https://github.com/Lexxy24/yondaktau && cd yondaktau && npm install && npm start"
