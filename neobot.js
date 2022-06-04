@@ -2266,7 +2266,7 @@ break
 case 'quotesimage':case 'qoutesimage':
    let cok = await fetchJson(`http://api.lolhuman.xyz/api/random/quotesimage?apikey=${lolkey}`)
    fakey(mess.wait)
-  mans.sendMessage(m.chat, { image: { url: cok }, caption: 'Done By LexxySlemek' }, { quoted: m })
+  mans.sendMessage(m.chat, { image: { url: cok }, caption: 'Done By NeoBotz' }, { quoted: m })
   break
 case 'quotesanime': case 'quoteanime': {
 let { quotesAnime } = require('./baileys/scraper')
@@ -2370,7 +2370,7 @@ let buttons = [
     let buttonMessage = {
 image: { url: 'https://coffee.alexflipnote.dev/random' },
 caption: `☕ Random Coffe`,
-footer: `Created By © LexxySlemek`,
+footer: `Created By © NeoBotz`,
 buttons: buttons,
 headerType: 4
     }
@@ -4749,7 +4749,7 @@ Author : ${anu.author.name}
 Channel : ${anu.author.url}
 Description : ${anu.description}
 Url : ${anu.url}`,
-footer: `Created By © LexxySlemek\nPilih Video Apa Audio?`,
+footer: `Created By © NeoBotz\nPilih Video Apa Audio?`,
 buttons: buttons,
 headerType: 4
     }
