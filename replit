@@ -1,2 +1,0 @@
-language = "nodejs"
-run = "cd yondaktau && rm -rf session.json && npm install && npm start"
