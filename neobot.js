@@ -1219,7 +1219,10 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Develover Botz
 > 𝘜𝘱𝘵𝘪𝘮𝘦 : *${runtime(process.uptime())}*
 > 𝘛𝘰𝘵𝘢𝘭 𝘏𝘪𝘵 𝘚𝘦𝘳𝘷𝘦𝘳 : *${jumlahcmd}*
 > 𝘛𝘰𝘵𝘢𝘭 𝘏𝘪𝘵 𝘛𝘰𝘥𝘢𝘺 : *${jumlahharian}*
-└────────────`
+└────────────
+
+${require('./plugins/help.js').help(prefix, l, pushname)}`
+
 const qtod = m.quoted? "true":"false"
 
 // Case Nye Sini Ngab
@@ -1317,33 +1320,6 @@ id: 'command'
 mans.send5ButImg(m.chat, ikln, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, iklan, btnG)
 }
 break
-case 'command':
-thumbv = await getBuffer(tb1)
-{
-    let spow = [{
-urlButton: {
-displayText: 'SOURCE CODE',
-url: 'https://github.com/Lexxy24/BOTMD'
-}
-    },{
-quickReplyButton: {
-displayText: 'STATUS BOT',
-id: 'ping'
-}
-    }, {
-quickReplyButton: {
-displayText: 'SEWA BOT',
-id: 'owner'
-}  
-    }, {
-quickReplyButton: {
-displayText: 'INFO PROFILE',
-id: 'hanzo'
-}
-    }]
-mans.send5ButImg(m.chat, `${require('./plugins/help.js').help(prefix, l, pushname)}`, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, thumb, spow)
-}
-break
 case 'hanzo': case 'prp': case 'inventori': case 'profile':{
   if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
   if (!isInventory){ addInventori(m.sender) }
@@ -1389,11 +1365,11 @@ id: 'ping'
 }
 }, {
 quickReplyButton: {
-displayText: '𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 𝐁𝐎𝐓',
-id: 'command'
+displayText: 'INFO PROFIL',
+id: 'hanzo'
 }
 }]
-mans.send5ButImg(m.chat, listmn, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, thumb, listbot)
+mans.send5ButImg(m.chat, listmn, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, log0, listbot)
 }
 break
 case 'grupbot':
