@@ -1,8 +1,16 @@
 const fs = require("fs")
 const chalk = require("chalk")
 
+//aumto functioner
+global.autoTyping = false //auto tying in gc (true to on, false to off)
+global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
+global.autoReadGc = true //auto reading in gc (true to on, false to off)
+global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
+global.available = true //auto available (true to on, false to off)
+
 // Other
-global.thum = "https://telegra.ph/file/7188012d573871aaf4fa0.jpg"
+global.thum = "https://telegra.ph/file/8c471d45b6cedad43cf84.jpg"
 global.log0 = fs.readFileSync("./plugins/gambar/neobotz.jpg")
 global.thumb = fs.readFileSync("./plugins/gambar/neobotz.jpg")
 global.iklan = fs.readFileSync("./plugins/gambar/iklan.jpg")
@@ -19,8 +27,8 @@ global.banUser = ['6281366679021@s.whatsapp.net']
 global.ntilink = ['120363043965529911@g.us','120363022988111568@g.us']
 global.wlcm = []
 global.gcrevoke = ['19054091487-1424650263@g.us']
-global.packname = "© AzzBotz"
-global.packname2 = "ᴿ᭄ AZZ ×፝֟͜×"
+global.packname = "©AzzBotz\n\n\n\n\n\n\n🔥🔥 "
+global.packname2 = "ᴿ᭄ AZZ ×፝֟͜×\n\n\n\n\n•"
 global.author = "ᴿ᭄ AZZ ×፝֟͜×"
 global.sessionName = "session"
 global.linkgrupss = "https://chat.whatsapp.com/G3ydGzHeZ825IU4RjLuToY"
@@ -53,7 +61,7 @@ global.limitawal = {
 }
 global.limitawal = {
     rakyat: "Infinity",
-    free: 999
+    free: 25
 }
 // Beli Di Zenz Yo
 global.APIs = {

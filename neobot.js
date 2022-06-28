@@ -4966,7 +4966,7 @@ let buttons = [
 {buttonId: `dare`, buttonText: {displayText: 'Dare 🎯'}, type: 1}
     ]
     let buttonMessage = {
-image: { url: 'https://telegra.ph/file/7188012d573871aaf4fa0.jpg' },
+image: { url: 'https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg' },
 caption: `${tes.result}`,
 footer: `Truth Or Dare??\nClick Button`,
 buttons: buttons,
@@ -4982,7 +4982,7 @@ let buttons = [
 {buttonId: `dare`, buttonText: {displayText: 'Truth 🎯'}, type: 1}
     ]
     let buttonMessage = {
-image: { url: 'https://telegra.ph/file/7188012d573871aaf4fa0.jpg' },
+image: { url: 'https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg' },
 caption: `${tes.result}`,
 footer: `Truth Or Dare??\nClick Button`,
 buttons: buttons,
